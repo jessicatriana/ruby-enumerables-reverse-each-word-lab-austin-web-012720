@@ -8,5 +8,5 @@ def reverse_each_word(sentence1)
     new_sentence = split_sentence.join(" ")
  
 
-  split_sentence
+  new_sentence
 end
