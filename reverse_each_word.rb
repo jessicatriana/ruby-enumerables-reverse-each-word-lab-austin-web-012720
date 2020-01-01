@@ -4,9 +4,7 @@ def reverse_each_word(sentence1)
   new_sentence = ""
   split_sentence = sentence1.split(" ")
   
-  index = 0 
-  while index < split_sentence.length 
-  split_sentence.each do split_sentence[index].reverse
+ split_sentence.collect
     
  
   binding.pry
