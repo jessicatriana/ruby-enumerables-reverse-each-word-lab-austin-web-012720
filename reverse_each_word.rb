@@ -6,7 +6,7 @@ def reverse_each_word(sentence1)
   
   index = 0 
   while index < split_sentence.length 
-  
+  split_sentence[index].reverse
   sentence1
   binding.pry
   new_sentence
