@@ -6,7 +6,8 @@ def reverse_each_word(sentence1)
   
   index = 0 
   while index < split_sentence.length 
-  split_sentence.each do |split_sentence|
+  split_sentence.each do |split_sentence| 
+    
   sentence1
   binding.pry
   new_sentence
